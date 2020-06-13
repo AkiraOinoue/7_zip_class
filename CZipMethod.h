@@ -5,20 +5,16 @@
 #define D_APINAME "SevenZip"
 /*
  【ライセンス】
-　7-zip64.dllは GNU Lesser General Public License (LGPL)の元で配布されて
+　元となる7-zip32.dllは GNU Lesser General Public License (LGPL)の元で配布されて
 　います。
 　ソフトの改変、再配布等については LGPL に従ってください。
 　http://www.gnu.org/copyleft/lesser.ja.html
 
   7-zip64.dllの入手先：
-  ver 9.22.00.02 私家版 【作者】秋田 稔氏
+  ver 9.22.00.02 私家版 【作者】綾川 鞠乃介氏
+  http://ayakawa.o.oo7.jp/soft/ntutil.html#7z
 　http://ayakawa.o.oo7.jp/bin/7z922002_64.zip
-
- 【サポート】
-  Web サイト：
-　http://akky.xrea.jp/
-  メール：
-  Email:support@akky.xrea.jp<秋田 稔>
+　なお元となる7-zip32.dllの作者は秋田 稔氏です。
 */
 // API関数型宣言 API関数名：SevenZip
 typedef int(WINAPI* T_LPZIP)(
